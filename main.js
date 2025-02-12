@@ -13,7 +13,7 @@ function createMainWindow() {
     },
   });
 
-  mainWindow.loadURL('http://192.168.18.120:3000/login');
+  mainWindow.loadURL('http://192.168.18.120:3001/login');
 }
 
 app.whenReady().then(() => {
