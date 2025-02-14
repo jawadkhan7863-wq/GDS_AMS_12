@@ -184,7 +184,7 @@ const Dashboard = () => {
                     <td className="px-4 py-2 border border-gray-700 text-center">{index + 1}</td>
                     <td className="px-4 py-2 border border-gray-700 text-center">
                       {item.employeeName ? capitalize(item.employeeName) : "N/A"}
-                      {console.log(item.employeeName)};
+                      {console.log(item.employeeName)}
                     </td>
 
                     {/* Conditionally change background color for login time */}
